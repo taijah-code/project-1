@@ -1,6 +1,6 @@
-body{
+body {
     background-color: #0265AD;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: large;
     color: white;
 }
@@ -12,6 +12,11 @@ h1 {
 }
 
 p{
+    text-align: center;
+    text-decoration: none;
+}
+
+nav{
     text-align: center;
 }
 
@@ -33,9 +38,47 @@ ul {
   overflow: hidden;
 }
 
+img {
+    display: block;
+    width: 70%;
+    height: 20%;
+    image-rendering: crisp-edges;
+    margin: auto;
+    border: solid peachpuff 7px;
+}
+
 .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
+.subscribe {
+    margin: 1rem 2rem;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form__label {
+    margin-bottom: 0.25rem;
+}
+
+.subscribe-form__input {
+    margin-bottom: 0.5rem;
+}
+
+.subscribe-form__input--textarea {
+    resize: none;
+}
+
+footer {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color:#F1D806;
+}
