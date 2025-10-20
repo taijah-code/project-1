@@ -18,6 +18,8 @@ h1 {
     color: #F1D806;
     text-align: center;
     background-color: #0265AD;
+    height: 100px;
+    margin: auto;
 }
 
 p {
@@ -226,4 +228,6 @@ p {
   color: black;
   border: 7px solid darkblue;
   background-color: #0265AD;
+  width: 98%;
+  margin: auto;
 }
