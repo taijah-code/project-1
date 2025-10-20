@@ -1,0 +1,39 @@
+.subscribe-form__button {
+    margin-top: 0.5rem;
+    color: #0265AD;
+    background-color: #0265AD;
+    border: 1px solid #f1D806;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+
+.subscribe-form__button:hover{
+    color: #f1D806;
+    background-color: #0265AD;
+    border: 1px solid black;
+}
+
+@media (min-width: 768px) {
+    .subscribe {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .subscribe {
+        width: 30%;
+        border: 3px solid #0265AD;
+        border-radius: 3rem;
+        padding: 1rem 2rem;
+        position: relative;
+    }
+}
+
+.subscribe__title {
+    position:absolute;
+    top: -2.5rem;
+    background-color: #0265AD;
+    text-decoration: none;
+}
