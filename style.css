@@ -5,6 +5,14 @@ body {
     color: black;
 }
 
+body {
+    cursor: url('https://cdn.custom-cursor.com/db/cursor/pointer_1930.png'), auto;
+}
+
+button:hover {
+  cursor: url('https://cdn.custom-cursor.com/db/pointer/pointer_1929.png'), pointer;
+}
+
 h1 {
     font-size: 50px;
     color: #F1D806;
